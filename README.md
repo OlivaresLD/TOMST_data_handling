@@ -38,5 +38,5 @@ Reference:
 
 # How to cite this script
 The recomended citation is:
-- Olivares Martinez, L. D. (2022). TOMST_data_handling  [R source code]. https://github.com/OlivaresLD/TOMST_data_handling
+- Olivares Martinez, L. D. (2022). Script for data recovery of TMS-4 sensors [R source code]. https://github.com/OlivaresLD/TOMST_data_handling
 
