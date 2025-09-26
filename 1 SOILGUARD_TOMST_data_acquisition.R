@@ -1,5 +1,5 @@
 #################################################################
-######## Script of data recovery for TMS-4 sensors ##############
+######## Script for data recovery of TMS-4 sensors ##############
 ######## Developed by: Luis Daniel Olivares Martínez ############
 ######## May-Jun 2022 - Universidad Miguel Hernández ############
 #################################################################
@@ -125,3 +125,4 @@ TOMST_cut <- subset(TOMST_cut, hum >= 0 )
 setwd(directorio)
 write_feather(TOMST_cut, paste0("SOILGUARD_WP3_2023_sensors_",today(),".feather")) # You can change the name inside the quotes to your country name e.g. SOILGUARD_FINDLAND_sensors_
 # write.csv(TOMST_cut, paste0("SOILGUARD_WP3_2023_sensors_",today(),".csv"), row.names = FALSE) # Alternative option if you want to export to a csv format (not recommended for big data bases)
+
