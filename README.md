@@ -33,3 +33,8 @@ Reference:
 
 * If there are files using comma as decimal notation instead of points you can use the "comma2dot.R" script
    designed to standarize all the files to points.
+
+# How to cite this script
+The recomended citation is:
+- Olivares Martinez, L. D. (2022). TOMST_data_handling  [R source code]. https://github.com/OlivaresLD/TOMST_data_handling
+
